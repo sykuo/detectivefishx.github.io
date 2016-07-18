@@ -1,0 +1,231 @@
+p, h1 {
+ font-family: 'Droid Sans', sans-serif;
+}
+
+/*NAVIGATION*/
+
+.navbar {
+ background-color:black;
+ /*border-bottom:1px solid #b9b9b9;*/
+ font-family: 'Lato', sans-serif;
+ height: 10px;
+}
+
+.navbar a {
+ color:#cccccc !important;
+}
+
+.navbar a:hover {
+ color:#ffffff !important;
+ background-color:#B6B6B6 !important;
+}
+
+.navbar-header .navbar-brand {
+ color:white !important;
+ font-size:1.5em;
+ margin-top: -5px;
+
+}
+
+.navbar-default .nav li.active a {
+ color:#1d1d1d !important;
+}
+
+/*CAROUSEL*/
+
+
+
+
+
+
+/*ABOUT*/
+
+.about {
+ padding: 100px 0 100px;
+ text-align: center;
+ /*background-color:#020C25;*/
+ background-color:#FFFFFF;
+}
+
+.about h1 {
+ font-size: 1.8em;
+ color: black;
+
+ padding: 0 0 25px;
+}
+
+.about p {
+ padding-bottom:25px;
+ color:black;
+}
+
+
+/*GAMES*/
+.games {
+ padding: 140px 0 60px;
+ /*background: url(../img/bg.jpg) no-repeat center center;*/
+ background-color:black;
+ background-size: cover;
+ width: 100%;
+ /*border-bottom: 2px solid #c9c9c9;*/
+}
+
+.games h1 {
+ color: white;
+ font-family: 'Pacifico', cursive;
+ font-size: 3.5em;
+}
+
+.games p {
+ color:white;
+ font-size:1.3em;
+}
+
+.games .btn {
+ padding: 5px 50px 5px 50px;
+ border-radius: 0;
+}
+
+@media(max-width:768px) {
+
+ .games {
+  text-align:center;
+  padding-top: 20%;
+ }
+
+ .games h1 {
+ font-size:1em;
+ }
+
+ .games p {
+  font-size:1em;
+ }
+
+ .games .btn {
+  padding: 5px 12px 5px 12px;
+ }
+
+ .games img {
+  padding-top:10%;
+ }
+}
+
+
+
+
+
+/*PRESS*/
+/*
+.press {
+ padding:90px 0 90px;
+ text-align:center;
+}
+
+.press h1 {
+ font-size:1.8em;
+ padding-bottom:25px;
+ color:#337ab7;
+}
+
+.press .press-logo li img {
+ opacity:0.3;
+ padding-bottom:25px;
+}
+
+.press .press-logo li:hover img {
+ opacity:1;
+}*/
+
+
+
+
+
+/*REVIEWS*/
+/*
+.reviews {
+ padding:90px 0 90px;
+ text-align:center;
+}
+
+.reviews h1 {
+ font-size:2em;
+ padding-bottom: 25px;
+ color:#337ab7;
+}
+
+.reviews p {
+ padding: 0 0 35px;
+}
+
+.reviews .line2 {
+ padding-top:35px;
+}*/
+
+/*BUY*/
+
+.buy {
+ padding:100px 0 100px;
+ background-color:white;
+ color:black;
+ text-align:center;
+}
+
+.buy h1 {
+ font-size:2em;
+ padding-bottom:25px;
+}
+
+.buy button {
+ background:transparent;
+ border:none;
+ padding-top:25px;
+}
+
+/*CONTACT*/
+
+.contact {
+ padding:100px 0 100px;
+ text-align:center;
+ background-color: #020C25;
+/* background-color:#303F9F;*/
+ color:#FFFFFF;
+}
+
+.contact h1 {
+ font-size:2em;
+ padding-bottom: 25px;
+}
+
+.contact .fa {
+ color:#03A9F4;
+ padding:20px 10px 40px;
+}
+
+.contact li {
+ padding-top: 10px;
+}
+
+/*FOOTER*/
+
+.footer {
+ background-color:black;
+ color:white;
+ padding:30px 0 30px;
+
+}
+
+
+
+.footer h1 {
+ font-family: 'Lato', sans-serif;
+ font-size:1.5em;
+}
+
+.footer p {
+ font-size:0.9em;
+ color:#f2f2f2;
+}
+
+.footer a {
+ color:#f2f2f2;
+}
