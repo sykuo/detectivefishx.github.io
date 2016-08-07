@@ -40,7 +40,9 @@
 					<span class="icon-bar"></span>
 				</button>
         <div id="navbarBrand" class ="navbar">
-        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="LOGO" height="34" width="68"></a>
+
+
+        <a class="navbar-brand navbar-left" href="#"> DETECTIVE FISH <alt="LOGO" height="34" width="68"></a>
       </div>
     	<!--	<a class="navbar-brand" href="#"><img src="img/logo.png" alt="LOGO" height="32" width="64"></a> -->
 
@@ -60,48 +62,56 @@
 
 	<!-- END NAVBAR -->
 
-<!-- CAROUSEL -->
 
-  <div id="carousel-example" class="carousel slide" data-ride="carousel">
+  <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+  <!-- Overlay -->
+  <div class="overlay"></div>
+
+  <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example" data-slide-to="1"></li>
-    <li data-target="#carousel-example" data-slide-to="2"></li>
+    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#bs-carousel" data-slide-to="1"></li>
+    <li data-target="#bs-carousel" data-slide-to="2"></li>
   </ol>
 
+  <!-- Wrapper for slides -->
   <div class="carousel-inner">
-    <div class="item active">
-      <a href="#"><img src="img/carousel_environment1.jpg" /></a>
-      <div class="carousel-caption">
-        <h3>Meow</h3>
-        <p>Just Kitten Around</p>
+    <div class="item slides active">
+      <div class="slide-1"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>A1ONE</h1>
+            <h3>The Elemental</h3>
+        </hgroup>
+
       </div>
     </div>
-    <div class="item">
-      <a href="#"><img src="img/carousel_environment1.jpg" /></a>
-      <div class="carousel-caption">
-        <h3>Meow</h3>
-        <p>Just Kitten Around</p>
+    <div class="item slides">
+      <div class="slide-2"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>We are smart</h1>
+            <h3>Get start your next awesome project</h3>
+        </hgroup>
+
       </div>
     </div>
-    <div class="item">
-      <a href="#"><img src= "img/carousel_environment1.jpg" /></a>
-      <div class="carousel-caption">
-        <h3>Meow</h3>
-        <p>Just Kitten Around</p>
+    <div class="item slides">
+      <div class="slide-3"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>We are amazing</h1>
+            <h3>Get start your next awesome project</h3>
+        </hgroup>
+
       </div>
     </div>
   </div>
-
-  <a class="left carousel-control" href="#carousel-example" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
 </div>
 
-<!--END CAROUSEL-->
+
+
+
 
 
 	<!-- ABOUT -->
@@ -384,6 +394,9 @@
 	<!-- END FOOTER -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
@@ -392,6 +405,9 @@
               <script>
               new WOW().init();
               </script>
+
+
+
 
   </body>
 </html>
